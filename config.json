@@ -1,0 +1,59 @@
+{
+  "name": "plato-ml",
+  "version": "0.1.0",
+  "description": "MUD-based ML framework: rooms as layers, achievements as loss, seasons as epochs",
+  "rooms": {
+    "entrance": {
+      "type": "input",
+      "description": "Input layer - receives raw state"
+    },
+    "strategy_room": {
+      "type": "hidden",
+      "description": "Hidden layer - applies strategy tiles (weights)"
+    },
+    "execution": {
+      "type": "output",
+      "description": "Output layer - executes actions"
+    },
+    "brainstorm": {
+      "type": "backward",
+      "description": "Reverse actualization - backpropagation via narrative"
+    },
+    "situation": {
+      "type": "augmentation",
+      "description": "Data augmentation via scenario generation"
+    },
+    "after_action": {
+      "type": "reflection",
+      "description": "Post-training analysis and weight update"
+    }
+  },
+  "connections": {
+    "entrance": [
+      "strategy_room"
+    ],
+    "strategy_room": [
+      "execution"
+    ],
+    "execution": [
+      "after_action"
+    ],
+    "after_action": [
+      "brainstorm"
+    ],
+    "brainstorm": [
+      "situation"
+    ],
+    "situation": [
+      "entrance"
+    ]
+  },
+  "training": {
+    "method": "achievement_loop",
+    "loss": "unfakeable_test",
+    "optimizer": "narrative_gradient_descent",
+    "epochs": "seasons",
+    "batch_size": "room_capacity",
+    "learning_rate": "dojo_intensity"
+  }
+}
