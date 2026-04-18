@@ -1,0 +1,130 @@
+{
+  "weights": {
+    "foundation_weight": 0.5,
+    "reveal_weight": 0.7880000000000003,
+    "king_weight": 0.5
+  },
+  "history": [
+    {
+      "loss": 0.8,
+      "originality": 1.0,
+      "weights": {
+        "foundation_weight": 0.5,
+        "reveal_weight": 0.524,
+        "king_weight": 0.5
+      },
+      "narrative": "[fallback] Action taken based on weights."
+    },
+    {
+      "loss": 0.8,
+      "originality": 1.0,
+      "weights": {
+        "foundation_weight": 0.5,
+        "reveal_weight": 0.548,
+        "king_weight": 0.5
+      },
+      "narrative": "[fallback] Action taken based on weights."
+    },
+    {
+      "loss": 0.8,
+      "originality": 1.0,
+      "weights": {
+        "foundation_weight": 0.5,
+        "reveal_weight": 0.5720000000000001,
+        "king_weight": 0.5
+      },
+      "narrative": "[fallback] Action taken based on weights."
+    },
+    {
+      "loss": 0.8,
+      "originality": 1.0,
+      "weights": {
+        "foundation_weight": 0.5,
+        "reveal_weight": 0.5960000000000001,
+        "king_weight": 0.5
+      },
+      "narrative": "[fallback] Action taken based on weights."
+    },
+    {
+      "loss": 0.8,
+      "originality": 1.0,
+      "weights": {
+        "foundation_weight": 0.5,
+        "reveal_weight": 0.6200000000000001,
+        "king_weight": 0.5
+      },
+      "narrative": "[fallback] Action taken based on weights."
+    },
+    {
+      "loss": 0.8,
+      "originality": 1.0,
+      "weights": {
+        "foundation_weight": 0.5,
+        "reveal_weight": 0.6440000000000001,
+        "king_weight": 0.5
+      },
+      "narrative": "[fallback] Action taken based on weights."
+    },
+    {
+      "loss": 0.8,
+      "originality": 1.0,
+      "weights": {
+        "foundation_weight": 0.5,
+        "reveal_weight": 0.6680000000000001,
+        "king_weight": 0.5
+      },
+      "narrative": "[fallback] Action taken based on weights."
+    },
+    {
+      "loss": 0.8,
+      "originality": 1.0,
+      "weights": {
+        "foundation_weight": 0.5,
+        "reveal_weight": 0.6920000000000002,
+        "king_weight": 0.5
+      },
+      "narrative": "[fallback] Action taken based on weights."
+    },
+    {
+      "loss": 0.8,
+      "originality": 1.0,
+      "weights": {
+        "foundation_weight": 0.5,
+        "reveal_weight": 0.7160000000000002,
+        "king_weight": 0.5
+      },
+      "narrative": "[fallback] Action taken based on weights."
+    },
+    {
+      "loss": 0.8,
+      "originality": 1.0,
+      "weights": {
+        "foundation_weight": 0.5,
+        "reveal_weight": 0.7400000000000002,
+        "king_weight": 0.5
+      },
+      "narrative": "[fallback] Action taken based on weights."
+    },
+    {
+      "loss": 0.8,
+      "originality": 1.0,
+      "weights": {
+        "foundation_weight": 0.5,
+        "reveal_weight": 0.7640000000000002,
+        "king_weight": 0.5
+      },
+      "narrative": "[fallback] Action taken based on weights."
+    },
+    {
+      "loss": 0.8,
+      "originality": 1.0,
+      "weights": {
+        "foundation_weight": 0.5,
+        "reveal_weight": 0.7880000000000003,
+        "king_weight": 0.5
+      },
+      "narrative": "[fallback] Action taken based on weights."
+    }
+  ],
+  "timestamp": 1776539234.5002804
+}

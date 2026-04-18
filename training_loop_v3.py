@@ -1,6 +1,13 @@
 #!/usr/bin/env python3
-"""PLATO-ML v3: Training loop with improving narratives via Groq API."""
-import sys, json, urllib.request
+"""PLATO-ML v4: Training loop with curriculum scheduling, metrics tracking, and state persistence.
+
+Enhancements over v3:
+- Curriculum scheduling (easy rooms first, progressively harder)
+- Metrics tracking (loss, originality, win rate over time)
+- Save/load training state for resumable training
+- Varied room scenarios generated programmatically
+"""
+import sys, json, os, time, urllib.request, hashlib
 sys.path.insert(0, "/tmp/plato-ml")
 from rooms.layer import RoomState, Room
 from training.achievement_loss import AchievementLoss
