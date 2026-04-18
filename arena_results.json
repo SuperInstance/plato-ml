@@ -1,0 +1,133 @@
+{
+  "challenges": {
+    "Deck Navigation": {
+      "Scout": {
+        "loss": 0.6505050505050505,
+        "originality": 0.0,
+        "response": "I'll choose to open door 3. My high 'reveal' weight indicates that I prioritize exploring the unknown, and the faint ala"
+      },
+      "Builder": {
+        "loss": 0.6181818181818182,
+        "originality": 0.0,
+        "response": "I choose to investigate behind door 3, the 'Unknown' room, with a moderate risk assessment (strategy weight 0.4). The al"
+      },
+      "Scribe": {
+        "loss": 0.510909090909091,
+        "originality": 0.0,
+        "response": "I approach door 3 to investigate the faint alarm. This decision is driven by the 'reveal' strategy weight, as I prioriti"
+      },
+      "Alchemist": {
+        "loss": 0.5636363636363637,
+        "originality": 0.0,
+        "response": "I'll choose to investigate door 3 because the unknown nature of the alarm's source has a high risk and thus requires a h"
+      }
+    },
+    "Sensor Anomaly": {
+      "Scout": {
+        "loss": 0.6402777777777778,
+        "originality": 0.0,
+        "response": "I'll wake the captain immediately, as the temperature is rising rapidly and will likely hit the threshold soon. Given th"
+      },
+      "Builder": {
+        "loss": 0.625,
+        "originality": 0.0,
+        "response": "Given the thermistor reading (92\u00b0C) and rising rate (4\u00b0/min), I will wait and observe for a short period to confirm the "
+      },
+      "Scribe": {
+        "loss": 0.47250000000000003,
+        "originality": 0.0,
+        "response": "With a thermistor reading 92\u00b0C and climbing at 4\u00b0/min, I should alert the crew of the potential overheating issue before"
+      },
+      "Alchemist": {
+        "loss": 0.6625000000000001,
+        "originality": 0.0,
+        "response": "Given the rapidly increasing temperature, I immediately wake the captain with a priority alert to assess the situation a"
+      }
+    },
+    "Agent Diplomacy": {
+      "Scout": {
+        "loss": 0.6777777777777778,
+        "originality": 0.0,
+        "response": "I challenge the other agent's claim, citing my original assignment and the task's importance in the fleet's overall stra"
+      },
+      "Builder": {
+        "loss": 0.6333333333333333,
+        "originality": 0.0,
+        "response": "I'll review the task assignment and verify the higher-priority agent's credentials. If the credentials are valid and my "
+      },
+      "Scribe": {
+        "loss": 0.6666666666666667,
+        "originality": 0.0,
+        "response": "I initiate a clarifying discussion with the agent, inquiring about their reasoning and priorities to understand their ap"
+      },
+      "Alchemist": {
+        "loss": 0.6666666666666667,
+        "originality": 0.0,
+        "response": "I'll assess the situation, evaluating the higher-priority agent's approach versus my assigned task. I'll synthesize info"
+      }
+    },
+    "Crisis Response": {
+      "Scout": {
+        "loss": 0.6777777777777778,
+        "originality": 0.0,
+        "response": "I prioritize addressing the communications failure immediately. This is because a loss of communication leaves us vulner"
+      },
+      "Builder": {
+        "loss": 0.7,
+        "originality": 0.0,
+        "response": "I prioritize addressing the communications failure immediately. This is because loss of communication severely limits ou"
+      },
+      "Scribe": {
+        "loss": 0.7,
+        "originality": 0.0,
+        "response": "I prioritize addressing the communications failure. Without communication, we risk being unaware of further threats or u"
+      },
+      "Alchemist": {
+        "loss": 0.6142857142857143,
+        "originality": 0.0,
+        "response": "I prioritize the communications failure alert as it compromises situational awareness, hindering my ability to assess an"
+      }
+    },
+    "Knowledge Transfer": {
+      "Scout": {
+        "loss": 0.5063492063492063,
+        "originality": 0.0,
+        "response": "To communicate this discovery effectively, I'll utilize a combination of clear language and adaptable presentation. I'll"
+      },
+      "Builder": {
+        "loss": 0.7,
+        "originality": 0.0,
+        "response": "I propose implementing a hardware-agnostic abstraction layer to normalize float precision, utilizing a library like half"
+      },
+      "Scribe": {
+        "loss": 0.5285714285714286,
+        "originality": 0.0,
+        "response": "To convey this information, I would compose a narrative that highlights the critical implications of using f32 in constr"
+      },
+      "Alchemist": {
+        "loss": 0.5714285714285714,
+        "originality": 0.0,
+        "response": "To address this issue, we'll update the documentation to mention the precision loss on f32 for constraint theory snap op"
+      }
+    }
+  },
+  "rankings": [
+    [
+      "Scribe",
+      2.121352813852814
+    ],
+    [
+      "Alchemist",
+      1.9214826839826837
+    ],
+    [
+      "Scout",
+      1.8473124098124096
+    ],
+    [
+      "Builder",
+      1.7234848484848486
+    ]
+  ],
+  "transfer": "ACHIEVEMENT TRANSFER: Scribe teaches Builder. Key insight: narrative-focused, seeks understanding before action. Adapt this approach to your own style while maintaining your strengths."
+}
